@@ -1,22 +1,22 @@
 import React, { useRef } from "react";
-import PercentIcon from "../assets/icon/PercentIcon";
-import LocationIcon from "../assets/icon/LocationIcon";
-import NumberIcon from "../assets/icon/NumberIcon";
+import PercentIcon from "../assets/icons/PercentIcon";
+import LocationIcon from "../assets/icons/LocationIcon";
+import NumberIcon from "../assets/icons/NumberIcon";
 import HeaderImg from "/img/headerImg.png";
-import HeaderLogoIcon from "../assets/icon/HeaderLogoIcon";
-import HeaderButtonIcon from "../assets/icon/HeaderButtonIcon";
-import HeaderSearchIcon from "../assets/icon/HeaderSearchIcon";
-import HeaderHEartIcon from "../assets/icon/HeaderHEartIcon";
-import HeaderBasketIcon from "../assets/icon/HeaderBasketIcon";
-import HeaderComparatorIcon from "../assets/icon/HeaderComparatorIcon";
-import HeaderPersonIcon from "../assets/icon/HeaderPersonIcon";
+import HeaderLogoIcon from "../assets/icons/HeaderLogoIcon";
+import HeaderButtonIcon from "../assets/icons/HeaderButtonIcon";
+import HeaderSearchIcon from "../assets/icons/HeaderSearchIcon";
+import HeaderHEartIcon from "../assets/icons/HeaderHEartIcon";
+import HeaderBasketIcon from "../assets/icons/HeaderBasketIcon";
+import HeaderComparatorIcon from "../assets/icons/HeaderComparatorIcon";
+import HeaderPersonIcon from "../assets/icons/HeaderPersonIcon";
 import { Link } from "react-router";
-import HeaderFLexLogo from "../assets/icon/HeaderFLexLogo";
-import HeaderFlexButtonIcon from "../assets/icon/HeaderFlexButtonIcon";
-import HeaderFlexSearchIcon from "../assets/icon/HeaderFlexSearchIcon";
+import HeaderFLexLogo from "../assets/icons/HeaderFLexLogo";
+import HeaderFlexButtonIcon from "../assets/icons/HeaderFlexButtonIcon";
+import HeaderFlexSearchIcon from "../assets/icons/HeaderFlexSearchIcon";
 import { headerfooter, headermenuleft } from "../data/data";
-import HeaderMenuRightIcon from "../assets/icon/HeaderMenuRightIcon";
-import HeaderMewnuCloseIcon from "../assets/icon/HeaderMewnuCloseIcon";
+import HeaderMenuRightIcon from "../assets/icons/HeaderMenuRightIcon";
+import HeaderMewnuCloseIcon from "../assets/icons/HeaderMewnuCloseIcon";
 
 function Header() {
   const MenuButtonRef = useRef(null)

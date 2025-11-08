@@ -1,11 +1,8 @@
 import React from "react";
 import CartEmptyImg from "/images/basket-empty.png";
-import { Link, Links } from "react-router";
+import { Link } from "react-router";
 
 function CartEmpty() {
-    function ToHomePage() {
-        <Link to={"/"}></Link>
-    }
 
   return (
     <section className="cart">
@@ -22,7 +19,7 @@ function CartEmpty() {
               Siz xaridni asosiy sahifadan boshlashingiz yoki qidiruvdan
               foydalanishingiz mumkin
             </div>
-            <button onClick={ToHomePage} className="cart__button">Bosh sahifaga o'tish</button>
+            <Link to="/" className="cart__button">Bosh sahifaga o'tish</Link>
           </div>
         </div>
       </div>
