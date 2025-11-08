@@ -1,8 +1,8 @@
-import HeaderBasketIcon from "../assets/icon/HeaderBasketIcon";
-import HeaderComparatorIcon from "../assets/icon/HeaderComparatorIcon";
-import HeaderFooterHomeIcon from "../assets/icon/HeaderFooterHomeIcon";
-import HeaderHEartIcon from "../assets/icon/HeaderHEartIcon";
-import HeaderPersonIcon from "../assets/icon/HeaderPersonIcon";
+import HeaderBasketIcon from "../assets/icons/HeaderBasketIcon";
+import HeaderComparatorIcon from "../assets/icons/HeaderComparatorIcon";
+import HeaderFooterHomeIcon from "../assets/icons/HeaderFooterHomeIcon";
+import HeaderHEartIcon from "../assets/icons/HeaderHEartIcon";
+import HeaderPersonIcon from "../assets/icons/HeaderPersonIcon";
 import { fridgeImg, Iphone17Pro, phoneImg, smartTVImg } from "./cartImages";
 
 export const headerfooter =[

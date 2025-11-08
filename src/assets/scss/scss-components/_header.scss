@@ -3,7 +3,6 @@
   &__wrap {
     display: flex;
     flex-direction: column;
-    font-family: $font;
   }
 
   &__top {
@@ -270,8 +269,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  opacity: 0;
-  visibility: hidden;
+  display: none;
 
   &-left {
     width: 20%;
@@ -304,8 +302,7 @@
   }
 
   &.active {
-    opacity: 1;
-    visibility: visible;
+    display: block;
   }
 }
 
