@@ -8,7 +8,9 @@ html,
 body,
 #root { 
     width: 100%;
-    height: 100%; 
+    height: 100%;
+    font-family: $font-family;
+    background-color: #f2f3f5;
 }
 
 .container {
