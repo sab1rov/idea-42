@@ -1,6 +1,9 @@
 import { Route, Routes } from "react-router"
-import { Footer, Header } from "./components"
+import { Banner, Footer, Header } from "./components"
 import { routes } from "./data/routes"
+
+
+
 
 function App() {
 
