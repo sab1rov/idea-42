@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router"
-import { Footer, Header } from "./components"
+import { Footer, Header, IdeaText, Katigoria } from "./components"
 import { routes } from "./data/routes"
 
 function App() {
@@ -13,6 +13,8 @@ function App() {
             <Route path={item.path} element={item.element} key={item.path} />
           ))}
         </Routes>
+        <IdeaText/>
+        <Katigoria />
       </main>
       <Footer />
     </>
