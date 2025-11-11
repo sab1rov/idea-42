@@ -1,4 +1,4 @@
-import { CartPage, FavouritePage, HomePage, NotFoundPage, ProductItem } from "../pages";
+import { CartPage, CartWithItems, FavouritePage, HomePage, NotFoundPage, ProductItem } from "../pages";
 
 export const routes = [
     {
