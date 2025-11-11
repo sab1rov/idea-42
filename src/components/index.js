@@ -1,5 +1,5 @@
 import Header from "./Header";
 import Footer from "./Footer";
-import Banner from "./BAnner";
+import Banner from "./Banner";
 
-export { Header, Footer, Banner }
+export  { Header, Footer, Banner };
