@@ -1,6 +1,6 @@
 .cartWithItems {
   &__wrap {
-    @include d-flex(row, flex-start, unset, 24);
+    @include d-flex(row, unset, unset, 24);
   }
 
   &__cards {
@@ -118,7 +118,7 @@
     border-radius: 12px;
     padding: 24px;
     width: 340px;
-    height: auto;
+    height: 100%;
   }
 
   &__formalize-info {

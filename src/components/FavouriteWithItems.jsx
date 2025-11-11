@@ -1,4 +1,3 @@
-import React, { useRef, useEffect } from "react";
 import { FavItemData } from "../data/data";
 import FavouriteWithItemsData from "./FavouriteWithItemsData";
 
