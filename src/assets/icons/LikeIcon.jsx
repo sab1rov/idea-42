@@ -1,20 +1,16 @@
 import * as React from "react"
-const SvgComponent = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 32 32" {...props}>
-    <path
-      d="M9.5 5C5.362 5 2 8.404 2 12.5c0 1.428.65 2.667 1.25 3.563.6.895 1.219 1.468 1.219 1.468L15.28 28.375l.719.719.719-.719L27.53 17.531S30 15.357 30 12.5C30 8.404 26.638 5 22.5 5c-3.433 0-5.645 2.066-6.5 2.938C15.145 7.066 12.933 5 9.5 5zm0 2c2.986 0 5.75 2.906 5.75 2.906l.75.844.75-.844S19.514 7 22.5 7c3.042 0 5.5 2.496 5.5 5.5 0 1.545-1.875 3.625-1.875 3.625L16 26.25 5.875 16.125s-.485-.466-.969-1.188C4.423 14.217 4 13.273 4 12.5 4 9.496 6.458 7 9.5 7z"
-      color="none"
-      fontFamily="Bitstream Vera Sans"
-      overflow="visible"
-      style={{
-        textIndent: 0,
-        textAlign: "start",
-        lineHeight: "normal",
-        textTransform: "none",
-        blockProgression: "tb",
-        InkscapeFontSpecification: "Bitstream Vera Sans",
-      }}
-    />
+const LikeIcon = (props) => (
+  <svg width={32} height={32} viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <defs>
+      <style>{".cls-1{fill:#101820;}"}</style>
+    </defs>
+    <title />
+    <g data-name="Layer 54" id="Layer_54">
+      <path
+        className="cls-1"
+        d="M16,28.72a3,3,0,0,1-2.13-.88L3.57,17.54a8.72,8.72,0,0,1-2.52-6.25,8.06,8.06,0,0,1,8.14-8A8.06,8.06,0,0,1,15,5.68l1,1,.82-.82h0a8.39,8.39,0,0,1,11-.89,8.25,8.25,0,0,1,.81,12.36L18.13,27.84A3,3,0,0,1,16,28.72ZM9.15,5.28A6.12,6.12,0,0,0,4.89,7a6,6,0,0,0-1.84,4.33A6.72,6.72,0,0,0,5,16.13l10.3,10.3a1,1,0,0,0,1.42,0L27.23,15.91A6.25,6.25,0,0,0,29,11.11a6.18,6.18,0,0,0-2.43-4.55,6.37,6.37,0,0,0-8.37.71L16.71,8.8a1,1,0,0,1-1.42,0l-1.7-1.7a6.28,6.28,0,0,0-4.4-1.82Z"
+      />
+    </g>
   </svg>
 )
-export default SvgComponent
+export default LikeIcon
