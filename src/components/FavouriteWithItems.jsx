@@ -1,22 +1,18 @@
 import { FavItemData } from "../data/data";
 import FavouriteWithItemsData from "./FavouriteWithItemsData";
 
-function CartWithItems() {
-  
-
+function FavWithItems() {
   return (
-    <section className="cartWithItems">
+    <section className="FavWithItems">
       <div className="container">
-        <div className="cartWithItems__wrap">
-          {
-            FavItemData.map(item => (
-              <FavouriteWithItemsData item={item} key={item.code} />
-            ))
-          }
+        <div className="FavWithItems__wrap">
+          {FavItemData.map((item) => (
+            <FavouriteWithItemsData item={item} key={item.code} />
+          ))}
         </div>
       </div>
     </section>
   );
 }
 
-export default CartWithItems;
+export default FavWithItems;
