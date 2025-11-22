@@ -2,9 +2,6 @@ import { Route, Routes } from "react-router"
 import { Banner, Footer, Header } from "./components"
 import { routes } from "./data/routes"
 
-
-
-
 function App() {
 
   return (
@@ -16,6 +13,8 @@ function App() {
             <Route path={item.path} element={item.element} key={item.path} />
           ))}
         </Routes>
+        <IdeaText/>
+        <Katigoria /> 
       </main>
       <Footer />
     </>

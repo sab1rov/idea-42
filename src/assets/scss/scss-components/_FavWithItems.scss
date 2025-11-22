@@ -1,12 +1,7 @@
-.cartWithItems {
+.FavWithItems {
   &__wrap {
-    // @include d-flex(row, unset, unset, 24);
-    display: flex;
-    gap: 24px
-  }
+    @include d-flex(column, flex-start, unset, 24);
 
-  &__cards {
-    @include d-flex(column, center, unset, 24);
   }
 
   &__itemCard {
@@ -18,9 +13,8 @@
   }
 
   &__img {
-    width: 140px;
-    height: 140px;
-    margin-right: 12px;
+    width: 120px;
+    height: 120px;
 
     img {
       width: 100%;
@@ -30,6 +24,7 @@
   &__content {
     @include d-flex(row, center, space-between, 0);
     width: 100%;
+    
   }
 
   &__content-left {
@@ -40,6 +35,13 @@
     @include d-flex(row, center, unset, 8);
     font-size: 18px;
     font-weight: 700;
+
+    p{
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: -.03em;
+      line-height: 1.2;
+    }
   }
 
   &__paymentBtn {
@@ -84,14 +86,9 @@
     &:hover {
       opacity: 1;
       fill: #dd1470;
-      color: #dd1470;
+      color: #dd1470
     }
   }
-
-  &__content-icon.liked {
-    opacity: 1;
-  }
-
 
   &__let-count {
     @include d-flex(row, center, center, 16);
@@ -119,16 +116,8 @@
     background-color: #fff;
     border-radius: 12px;
     padding: 24px;
-    width: 340px;
-    height: 100%;
-  }
-
-  &__formalize-info {
-    @include d-flex(column, unset, unset, 24);
-  }
-
-  &__formalize-content {
-    @include d-flex(column, unset, unset, 12);
+    width: 300px;
+    height: 310px;
   }
 
   &__formalizeCard-title {

@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import FavouriteEmpty from "../components/FavouriteEmpty";
 
 function FavouritePage() {
-  return (
-    <div>FavouritePage</div>
-  )
+  return <FavouriteEmpty />;
 }
 
-export default FavouritePage
+export default FavouritePage;

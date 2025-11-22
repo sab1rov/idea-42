@@ -1,8 +1,9 @@
 import React from 'react'
+import { ProductInfo } from '../components'
 
 function ProductItem() {
   return (
-    <div>ProductItem</div>
+    <ProductInfo />
   )
 }
 
