@@ -5,7 +5,7 @@ import { Link } from "react-router";
 import TrashIcon from "../assets/icons/TrashIcon";
 import LikeIcon from "../assets/icons/LikeIcon";
 import ScalesIcon from "../assets/icons/ScalesIcon";
-import { formatPrice } from "./formatPrice";
+import { formatPrice } from "../utils/settings.jsx";
 import LikedIcon from "../assets/icons/LikedIcon";
 
 function CartWithItemsData({ item, onIncrease, onDecrease, onRemove }) {

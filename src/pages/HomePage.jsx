@@ -5,7 +5,7 @@ import Banner from "../components/Banner"
 function HomePage() {
   return (
     <>
-    <Banner />
+      <Banner />
     </>
   );
 }

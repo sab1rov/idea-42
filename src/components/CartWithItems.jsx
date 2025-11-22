@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { cartItemData } from "../data/data";
-import CartWithItemsData from "../data/CartWithItemsData";
-import CartWithItemsFormalizeData from "../data/CartWithItemsFormalizeData";
-import { formatPrice } from "../data/formatPrice";
+import CartWithItemsData from "./CartWithItemsData";
+import CartWithItemsFormalizeData from "./CartWithItemsFormalizeData";
+import { formatPrice } from "../utils/settings";
 
 function CartWithItems() {
   const [items, setItems] = useState(cartItemData);

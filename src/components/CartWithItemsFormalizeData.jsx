@@ -1,5 +1,5 @@
 import React from "react";
-import { formatPrice } from "./formatPrice";
+import { formatPrice } from "../utils/settings";
 
 function CartWithItemsFormalizeData({ item }) {
   return (
