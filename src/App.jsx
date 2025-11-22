@@ -13,8 +13,6 @@ function App() {
             <Route path={item.path} element={item.element} key={item.path} />
           ))}
         </Routes>
-        <IdeaText/>
-        <Katigoria /> 
       </main>
       <Footer />
     </>

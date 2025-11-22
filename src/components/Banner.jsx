@@ -28,10 +28,10 @@ function Banner() {
                             navigation={true}
                             modules={[Pagination, Navigation, Autoplay]}
                             className="mySwiper"
-                            
+
                         >
-                            <SwiperSlide> <img src={bannerimg} alt="sd" /> </SwiperSlide>
-                            <SwiperSlide> <img src={bannerimg1} alt="sd" /> </SwiperSlide>
+                            <SwiperSlide> <img src={bannerimg} alt="slider image" /> </SwiperSlide>
+                            <SwiperSlide> <img src={bannerimg1} alt="slider image" /> </SwiperSlide>
 
                         </Swiper>
 

@@ -1,6 +1,5 @@
 .cartWithItems {
   &__wrap {
-    // @include d-flex(row, unset, unset, 24);
     display: flex;
     gap: 24px
   }

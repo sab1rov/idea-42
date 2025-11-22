@@ -2,11 +2,8 @@
 @import "./generals/_normalize.scss";
 @import "./generals/_mixins.scss";
 
-@import "./components/_productInfo.scss"
+@import "./scss-components/productInfo";
 @import "./scss-components/_banner.scss";
-@import "./scss-components/IdeaText.scss";
-@import "./scss-components/Katigoria.scss";
-@import "./scss-components/footer.scss"
 @import "./scss-components/_header.scss";
 @import "./scss-components/_cartPage.scss";
 @import "./scss-components/_cartWithItems.scss";
