@@ -1,8 +1,8 @@
 import React from 'react'
-import BottomTelegramIcon from '../assets/icoins/TelegramIcon'
-import TelegramIcon from '../assets/icoins/TelegramIcon'
-import FacebookIcon from '../assets/icoins/FacebookIcon'
-import InstagramIcon from '../assets/icoins/InstagramIcon'
+import BottomTelegramIcon from '../assets/icons/TelegramIcon'
+import TelegramIcon from '../assets/icons/TelegramIcon'
+import FacebookIcon from '../assets/icons/FacebookIcon'
+import InstagramIcon from '../assets/icons/InstagramIcon'
 
 function Footer() {
   return (

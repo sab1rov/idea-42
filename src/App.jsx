@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router"
-import { Banner, Footer, Header } from "./components"
+import { Banner, Footer, Header, IdeaText, Katigoria } from "./components"
 import { routes } from "./data/routes"
 
 function App() {

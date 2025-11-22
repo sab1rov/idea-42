@@ -121,9 +121,9 @@ function ProductInfo() {
               Xususiyatlari
             </h2>
           </div>
-          <p className="product__info-card-text">
+          <a className="product__info-card-text">
               Ko'prok korsatish
-            </p>
+            </a>
         </div>
       </div>
     </section>

@@ -6,7 +6,7 @@ const InstagramIcon = (props) => (
     viewBox="0 0 512 512"
     width={24}
     height={24}
-    fill="rgba(254, 254, 255, 1)"
+    fill="rgba(254, 254, 255)"
     {...props}
   >
     <g fill="#ffffffff">
